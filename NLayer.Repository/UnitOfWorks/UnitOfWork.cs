@@ -11,7 +11,7 @@ namespace NLayer.Repository.UnitOfWorks
             _context = context;
         }
 
-        public void Comit()
+        public void Comit() 
         {
             _context.SaveChanges();
         }
